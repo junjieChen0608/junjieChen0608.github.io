@@ -1,0 +1,11 @@
+p {
+    color: darkslategrey;
+    font-family: "Microsoft YaHei";
+}
+
+#target {
+    color: #dd2358;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
