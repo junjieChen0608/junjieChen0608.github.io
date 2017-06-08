@@ -1,11 +1,19 @@
-p {
-    color: darkslategrey;
-    font-family: "Microsoft YaHei";
+p{
+    width: 960px;
+    color: dimgrey;
+    font-family: helvetica;
+    border: 5px solid coral;
 }
 
-#target {
+div{
+    width: 960px;
+    color: dimgrey;
+    font-family: helvetica;
+    border: 5px solid coral;
+}
+
+#target{
     color: #dd2358;
-    text-decoration: underline;
     font-style: italic;
     font-weight: bold;
 }
