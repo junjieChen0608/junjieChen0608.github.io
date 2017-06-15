@@ -1,15 +1,17 @@
 p{
     width: 960px;
+    margin-left: 30px;
     color: dimgrey;
+    padding: 10px;
+    font-size: 14px;
     font-family: helvetica;
-    border: 5px solid coral;
+    border: 4px solid coral;
 }
 
-div{
-    width: 960px;
-    color: dimgrey;
-    font-family: helvetica;
-    border: 5px solid coral;
+.parentDiv p:hover{
+    padding: 5px;
+    font-size: 16px;
+    border: 6px solid coral;
 }
 
 #target{
