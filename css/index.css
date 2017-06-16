@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+#mainHeader{
+    background-color: #fff;
+}
+
+#mainHeader::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 100px;
+}
+
+#trollLogo{
+    margin: 5px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    float: left;
+}
+
+#navBar{
+    float: right;
+}
+
+#navBar ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#navBar ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #303030;
+    line-height: 70px;
+}
+
+#navBar ul li a:hover{
+    text-decoration: underline;
+}
+
+footer{
+
+}
