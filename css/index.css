@@ -10,6 +10,12 @@ body{
 
 #mainHeader{
     background-color: #fff;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: lightgrey;
+    top: 0;
+    width: 100%;
+    position: fixed;
 }
 
 #mainHeader::after{
@@ -23,7 +29,7 @@ body{
     margin: 0 100px;
 }
 
-#trollLogo{
+#meLogo{
     margin: 5px;
     border-radius: 50%;
     height: 70px;
@@ -44,13 +50,15 @@ body{
     font-weight: bold;
     text-decoration: none;
     color: #303030;
-    line-height: 70px;
+    line-height: 80px;
 }
 
 #navBar ul li a:hover{
     text-decoration: underline;
 }
 
-footer{
-
+#mainFooter{
+    background: #fff;
+    padding: 10px;
+    text-align: center;
 }
