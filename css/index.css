@@ -4,59 +4,86 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
+html, body{
+    height: 100%;
     background-color: #eeeeee;
 }
 
-#mainHeader{
+#mainContainer{
+    min-height: 100%;
+}
+
+.mainHeader{
     background-color: #fff;
     border-style: solid;
     border-color: transparent;
     border-bottom-color: lightgrey;
     top: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
     position: fixed;
 }
 
-#mainHeader::after{
+.mainHeader::after{
     content: "";
     clear: both;
     display: block;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 100px;
+.headerContainer{
+    max-width: 80%;
+    margin: 0 auto;
 }
 
-#meLogo{
+.logo{
     margin: 5px;
     border-radius: 50%;
     float: left;
 }
 
-#navBar{
+.navBar{
     float: right;
 }
 
-#navBar ul li{
+.navBar ul li{
     display: inline-block;
     padding: 0 20px;
 }
 
-#navBar ul li a{
-    font-weight: bold;
+.navBar ul li a{
+    font-size: large;
+    font-weight: 300;
     text-decoration: none;
-    color: #303030;
+    color: #606060;
     line-height: 80px;
 }
 
-#navBar ul li a:hover{
-    text-decoration: underline;
+.navBar ul li a:hover{
+    font-weight: 400;
+    color: #000000;
 }
 
-#mainFooter{
+.mainContent{
+    text-align: center;
+    margin-top: 86px;
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+h1{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.mainFooter{
     background: #fff;
+    height: 40px;
+    position: relative;
+    margin-top: -40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding: 10px;
     text-align: center;
+    clear: both;
 }
