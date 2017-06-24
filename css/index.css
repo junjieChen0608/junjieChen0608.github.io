@@ -1,89 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-
-html, body{
+body{
     height: 100%;
-    background-color: #eeeeee;
+    width: auto;
+    background: url("../img/portal.jpg") no-repeat center center fixed;
+    position: absolute;
 }
 
-#mainContainer{
-    min-height: 100%;
-}
-
-.mainHeader{
-    background-color: #fff;
-    border-style: solid;
-    border-color: transparent;
-    border-bottom-color: lightgrey;
-    top: 0;
-    left: 0;
-    right: 0;
+.headline{
+    padding: 0;
+    font-size: 72px;
+    color: white;
     position: fixed;
-}
-
-.mainHeader::after{
-    content: "";
-    clear: both;
-    display: block;
-}
-
-.headerContainer{
-    max-width: 80%;
-    margin: 0 auto;
-}
-
-.logo{
-    margin: 5px;
-    border-radius: 50%;
-    float: left;
-}
-
-.navBar{
-    float: right;
-}
-
-.navBar ul li{
-    display: inline-block;
-    padding: 0 20px;
-}
-
-.navBar ul li a{
-    font-size: large;
-    font-weight: 300;
-    text-decoration: none;
-    color: #606060;
-    line-height: 80px;
-}
-
-.navBar ul li a:hover{
-    font-weight: 400;
-    color: #000000;
-}
-
-.mainContent{
-    text-align: center;
-    margin-top: 86px;
+    top: 65%;
+    left: 20%;
     overflow: auto;
-    padding-bottom: 50px;
-}
 
-h1{
-    padding-top: 200px;
-    text-align: center;
-}
-
-.mainFooter{
-    background: #fff;
-    height: 40px;
-    position: relative;
-    margin-top: -40px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 10px;
-    text-align: center;
-    clear: both;
 }
